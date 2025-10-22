@@ -57,8 +57,8 @@
     <projectEmail>https://github.com/Commonjava/web-commons-bom</projectEmail>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <slf4j-version>2.0.17</slf4j-version>
-    <weft-version>1.22</weft-version>
-    <webdav-version>3.2.0</webdav-version>
+    <weft-version>1.25</weft-version>
+    <webdav-version>3.3.0</webdav-version>
     <!-- Note jackson-core/databind was published as 2.20.0 but annotations was 2.20 -->
     <jackson-version>2.20</jackson-version>
     <httpcoreVersion>4.4.16</httpcoreVersion>
