@@ -57,9 +57,9 @@
     <projectEmail>https://github.com/Commonjava/web-commons-bom</projectEmail>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <slf4j-version>2.0.17</slf4j-version>
-    <webdav-version>3.2.0</webdav-version>
+    <webdav-version>3.3.0</webdav-version>
     <!-- Note jackson-core/databind was published as 2.20.0 but annotations was 2.20 -->
-    <jackson-version>2.20</jackson-version>
+    <jackson-version>2.21</jackson-version>
     <httpcoreVersion>4.4.16</httpcoreVersion>
     <httpclientVersion>4.5.14</httpclientVersion>
     <resteasy-version>3.0.26.Final</resteasy-version>
@@ -182,7 +182,7 @@
       <dependency>
         <groupId>org.jboss.spec.javax.servlet</groupId>
         <artifactId>jboss-servlet-api_3.0_spec</artifactId>
-        <version>1.0.1.Final</version>
+        <version>1.0.2.Final</version>
       </dependency>
       <dependency>
         <groupId>javax.inject</groupId>
@@ -254,7 +254,7 @@
       <dependency>
         <groupId>org.hamcrest</groupId>
         <artifactId>hamcrest-core</artifactId>
-        <version>2.2</version>
+        <version>3.0</version>
         <scope>test</scope>
       </dependency>
       <dependency>
@@ -294,7 +294,7 @@
       <dependency>
         <groupId>org.jboss.logging</groupId>
         <artifactId>jboss-logging</artifactId>
-        <version>3.4.3.Final</version>
+        <version>3.6.2.Final</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
