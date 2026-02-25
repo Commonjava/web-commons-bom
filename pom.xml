@@ -64,7 +64,7 @@
     <httpclientVersion>4.5.14</httpclientVersion>
     <resteasy-version>3.0.26.Final</resteasy-version>
     <jaxrs-version>3.0.12.Final</jaxrs-version>
-    <weld-version>3.1.9.Final</weld-version>
+    <weld-version>6.0.4.Final</weld-version>
     <cdi-version>2.0</cdi-version>
     <logback-version>1.5.25</logback-version>
     <enforceBestPractices>false</enforceBestPractices>
