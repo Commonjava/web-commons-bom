@@ -58,7 +58,6 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <slf4j-version>2.0.17</slf4j-version>
     <webdav-version>3.3.0</webdav-version>
-    <!-- Note jackson-core/databind was published as 2.20.0 but annotations was 2.20 -->
     <jackson-version>2.21.1</jackson-version>
     <httpcoreVersion>4.4.16</httpcoreVersion>
     <httpclientVersion>4.5.14</httpclientVersion>
@@ -270,19 +269,11 @@
         <type>pom</type>
       </dependency>
       <dependency>
-        <groupId>com.fasterxml.jackson.core</groupId>
-        <artifactId>jackson-core</artifactId>
+        <groupId>com.fasterxml.jackson</groupId>
+        <artifactId>jackson-bom</artifactId>
         <version>${jackson-version}</version>
-      </dependency>
-      <dependency>
-        <groupId>com.fasterxml.jackson.core</groupId>
-        <artifactId>jackson-databind</artifactId>
-        <version>${jackson-version}.0</version>
-      </dependency>
-      <dependency>
-        <groupId>com.fasterxml.jackson.core</groupId>
-        <artifactId>jackson-annotations</artifactId>
-        <version>${jackson-version}</version>
+        <type>pom</type>
+        <scope>import</scope>
       </dependency>
 
       <!-- taming the depgraph -->
