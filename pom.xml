@@ -58,7 +58,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <slf4j-version>2.0.17</slf4j-version>
     <webdav-version>3.3.0</webdav-version>
-    <jackson-version>2.21.1</jackson-version>
+    <jackson-version>2.21.2</jackson-version>
     <httpcoreVersion>4.4.16</httpcoreVersion>
     <httpclientVersion>4.5.14</httpclientVersion>
     <resteasy-version>3.0.26.Final</resteasy-version>
