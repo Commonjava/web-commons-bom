@@ -56,7 +56,7 @@
     <projectOwner>Red Hat, Inc.</projectOwner>
     <projectEmail>https://github.com/Commonjava/web-commons-bom</projectEmail>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <slf4j-version>2.0.17</slf4j-version>
+    <slf4j-version>2.0.18</slf4j-version>
     <webdav-version>3.3.0</webdav-version>
     <jackson-version>2.21.3</jackson-version>
     <httpcoreVersion>4.4.16</httpcoreVersion>
