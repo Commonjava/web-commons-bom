@@ -57,7 +57,7 @@
     <projectEmail>https://github.com/Commonjava/web-commons-bom</projectEmail>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <slf4j-version>2.0.19</slf4j-version>
-    <jackson-version>2.22.2</jackson-version>
+    <jackson-version>2.22.3</jackson-version>
     <httpcoreVersion>4.4.16</httpcoreVersion>
     <httpclientVersion>4.5.14</httpclientVersion>
     <cdi-version>2.0</cdi-version>
